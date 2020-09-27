@@ -1,0 +1,7 @@
+<body class="center" >
+    <p>parent works!</p>
+<label>ngOnChange and ngDocheck</label>
+<input type="text" #pcomponent  (keyup)="0"/>
+<app-child [pData]="pcomponent.value"[arrList]="myArr"></app-child>
+<button (click)="addvalue()"class="btn btn-primary">add</button>
+</body>
